@@ -1,0 +1,11 @@
+-------------------Установка--------------------------
+desktop:~$mkdir django - создаем папку проекта
+desktop:~$cd djangoproject - переходим в папку с проектом
+desktop:~/djangoproject$sudo apt install virtualenv - устанавливаем на компьютер
+desktop:~/djangoproject$virtualenv venv - устанавливаем виртуальное окружение в папку с проектом
+desktop:~/djangoproject$source venv/bin/activate - активируем виртуальное окружение
+(venv) desktop:~/djangoproject$pip install django
+(venv) desktop:~/djangoproject$mkdir locallibrary - создаем папку с проекта
+(venv) desktop:~/djangoproject$cd locallibrary
+(venv) desktop:~/djangoproject/locallibrary$django-admin startproject locallibrary - создаем проект 
+(venv) desktop:~/djangoproject/locallibrary/locallibrary$python3 manage.py startapp catalog
